@@ -1,0 +1,19 @@
+{
+  "people": [
+    {
+      "name": "Giovanni Rossi",
+      "profession": "Desenvolvedor de software",
+      "image": "https://cdn.discordapp.com/attachments/1096821782591311992/1107105253142302800/Yuriferr_Um_retrato_sorridente_de_Giovanni_um_homem_italiano_co_693a5e7f-0ae0-4baf-9382-bb8cd480f3e6.png"
+    },
+    {
+      "name": "Sophie Dubois",
+      "profession": "Engenheira de dados",
+      "image": "https://cdn.discordapp.com/attachments/1096821782591311992/1107105299292225596/Yuriferr_Sophie_e_retratada_em_um_ambiente_moderno_e_brilhante._9d448f3f-801a-4d67-b167-0b8e1f7f1cf9.png"
+    },
+    {
+      "name": "Andreas Müller",
+      "profession": "Arquiteto de soluções",
+      "image": "https://cdn.discordapp.com/attachments/1096821782591311992/1107105714641575956/Yuriferr_Andreas_e_retratado_em_uma_foto_de_perfil_de_meio_corp_7afcdfec-2c48-4f7e-be8f-a4fdca237618.png"
+    }
+  ]
+}

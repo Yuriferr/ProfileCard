@@ -1,0 +1,118 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container .card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 20px;
+  z-index: 10000;
+  overflow: hidden;
+}
+
+.container .card {
+  background: linear-gradient(transparent 30%, #151a20 30%, #212121);
+}
+
+.container .card .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  z-index: 100000;
+  border-radius: 20px;
+  overflow: hidden;
+  transform-origin: top;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.container .card:hover .imgBx {
+  transform: translateY(30px) scale(0.5);
+}
+
+.container .card .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container .card .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 30px;
+  transform: translateY(100%);
+  transition: 0.5s;
+}
+
+.container .card:hover .content {
+  transform: translateY(0);
+}
+
+.container .card .content .details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container .card .content .details h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.container .card .content .details h2 span {
+  font-size: 20px;
+  font-weight: 400;
+  font-weight: 500;
+  color: gray;
+}
+
+.social_icons {
+  position: relative;
+  display: flex;
+  margin-top: 5px;
+}
+
+.social_icons li {
+  list-style: none;
+  margin: 4px;
+}
+
+.social_icons li a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.social_icons li a:hover {
+  transform: rotate(360deg);
+  background: #ee0979;
+}
